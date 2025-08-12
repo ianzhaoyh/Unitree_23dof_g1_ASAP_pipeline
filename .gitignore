@@ -77,12 +77,13 @@ hubble_data
 
 osmocheckpoints
 
-./scripts/batch_eval
-./scripts/batch_osmo_scp
-./logs/MotionTracking
-./logs/TestIsaacGymInstallation
-./logs_eval/
-./runs/
-./isaac_utils/
-./humanoidverse
+scripts/batch_eval/
+scripts/batch_osmo_scp/
+logs/MotionTracking/
+logs/TestIsaacGymInstallation
+logs_eval/
+runs/
+isaac_utils/
+
+isaacgym/
 password.txt
