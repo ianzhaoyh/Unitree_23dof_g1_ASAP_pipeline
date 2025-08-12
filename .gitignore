@@ -84,6 +84,5 @@ logs/TestIsaacGymInstallation
 logs_eval/
 runs/
 isaac_utils/
-
 isaacgym/
 password.txt
