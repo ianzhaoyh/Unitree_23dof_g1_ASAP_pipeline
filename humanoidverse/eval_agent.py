@@ -160,6 +160,8 @@ def main(override_config: OmegaConf):
 
     EXPORT_POLICY = False
     EXPORT_ONNX = True
+    
+
 
     checkpoint_path = str(checkpoint)
 
@@ -187,4 +189,11 @@ def main(override_config: OmegaConf):
 
 
 if __name__ == "__main__":
+    import sys
+
+    sys.argv=[
+        "eval_agent.py",
+        "+checkpoint=logs/MotionTracking/20250805_184935-MotionTracking_CR7-motion_tracking-g1_23dof/model_3000.pt"
+        # "+checkpoint=logs/MotionTracking/20250804_100312-MotionTracking_CR7-motion_tracking-g1_23dof/model_1900.pt"
+    ]
     main()

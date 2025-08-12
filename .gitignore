@@ -79,3 +79,9 @@ osmocheckpoints
 
 ./scripts/batch_eval
 ./scripts/batch_osmo_scp
+./logs/MotionTracking
+./logs/TestIsaacGymInstallation
+./logs_eval/
+./runs/
+./isaac_utils/
+./humanoidverse
